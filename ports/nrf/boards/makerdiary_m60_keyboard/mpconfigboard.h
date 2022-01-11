@@ -44,8 +44,8 @@
 
 #define BOARD_HAS_CRYSTAL 1
 
-// #define DEFAULT_UART_BUS_RX         (&pin_P0_15)
-// #define DEFAULT_UART_BUS_TX         (&pin_P0_16)
+#define DEFAULT_UART_BUS_RX         (&pin_P0_15)
+#define DEFAULT_UART_BUS_TX         (&pin_P0_16)
 
 #define DEFAULT_I2C_BUS_SCL         (&pin_P1_06)
 #define DEFAULT_I2C_BUS_SDA         (&pin_P1_05)
