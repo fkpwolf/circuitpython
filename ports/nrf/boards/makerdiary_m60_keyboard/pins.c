@@ -24,8 +24,8 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
     { MP_ROM_QSTR(MP_QSTR_C7), MP_ROM_PTR(&pin_P0_25) },
     { MP_ROM_QSTR(MP_QSTR_C8), MP_ROM_PTR(&pin_P0_26) },
 
-    { MP_ROM_QSTR(MP_QSTR_TXD), MP_ROM_PTR(&pin_P0_16) },
-    { MP_ROM_QSTR(MP_QSTR_RXD), MP_ROM_PTR(&pin_P0_15) },
+    //{ MP_ROM_QSTR(MP_QSTR_TXD), MP_ROM_PTR(&pin_P0_16) },
+    //{ MP_ROM_QSTR(MP_QSTR_RXD), MP_ROM_PTR(&pin_P0_15) },
 
     { MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_P1_06) },
     { MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_P1_05) },
